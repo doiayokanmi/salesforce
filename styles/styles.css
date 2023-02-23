@@ -3,11 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
-#nav a {
+#nav a, p a {
     color: #032d60;
     font-weight: 600;
+    text-decoration: none;
 }
 
 #nav a:hover {
     color: #0176d3;
 }
+
+.unbold {
+    font-weight: normal !important;
+}
+
+
+
