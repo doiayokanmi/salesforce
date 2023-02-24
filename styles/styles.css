@@ -6,15 +6,48 @@
 #nav a, p a {
     color: #032d60;
     font-weight: 600;
-    text-decoration: none;
 }
 
 #nav a:hover {
     color: #0176d3;
 }
 
+#navsec {
+    background-color: #fff;
+}
+
 .unbold {
     font-weight: normal !important;
+}
+
+
+#banner {
+    background: url(/image/homepage-success-now-lg-bg.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #032d60;
+    font-size: 3.2rem;
+    width: 45vw;
+    font-weight: 600;
+}
+
+.whitetxt {
+    color: #fff;
+    background-color: #0176d3;
+}
+
+.bluetxt {
+    color: #0176d3;
+    background-color: #fff;
+} 
+
+.notunder {
+    text-decoration: none;
 }
 
 
