@@ -92,3 +92,10 @@ p {
     font-weight: 400;
 }
 
+#indust {
+    background: url(/image/hp-industries-page-break-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
