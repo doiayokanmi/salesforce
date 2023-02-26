@@ -79,4 +79,15 @@ a {
     color: #032d60;
 }
 
+section h2 {
+    width: 60%;
+}
+
+#learn {
+    color: #032d60;
+}
+
+#learn p {
+    color: #000;
+}
 
