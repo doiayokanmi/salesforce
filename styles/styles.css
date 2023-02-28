@@ -60,7 +60,7 @@ h1 {
 
 h2 {
     color: #032d60;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .cardcon {
@@ -94,7 +94,7 @@ p {
 
 #indust {
     background: url(/image/hp-industries-page-break-bg.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
