@@ -88,14 +88,18 @@ section h2 {
 }
 
 p {
-    color: #000;
+    color: #000000cc;
     font-weight: 400;
+    font-size: 16px;
 }
 
 #indust {
     background: url(/image/hp-industries-page-break-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
 }
 
+button {
+    font-size: 16px !important;
+}
