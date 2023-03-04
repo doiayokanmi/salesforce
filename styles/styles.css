@@ -30,8 +30,7 @@
 
 h1 {
     color: #032d60;
-    font-size: 3.05rem;
-    width: 45vw;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -79,10 +78,6 @@ a {
     color: #032d60;
 }
 
-section h2 {
-    width: 60%;
-}
-
 #learn {
     color: #032d60;
 }
@@ -113,4 +108,29 @@ button {
 
 #whitebg {
     background-color: #fff;
+}
+
+#signup {
+    background: url(/image/hp-newsletter-card.jpg) no-repeat;
+    background-position: right bottom;
+    background-size: 50%;
+}
+
+li a {
+    text-decoration: none;
+}
+
+#dipBlue, #dipBlue p  {
+    background-color: #032d60;
+    color: #fff;
+    font-size: 13px;
+}
+
+#dipBlue a {
+    color: #0176d3;
+    text-decoration: underline;
+}
+
+#dipBlue a:hover {
+    color: #fff;
 }

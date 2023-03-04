@@ -21,16 +21,16 @@
 <body>
     <!-- Nav Section -->
     <section class="d-flex text-center align-items-center justify-content-between container-fluid bg-body-light px-lg-4 sticky-top" id="navsec">
-        <nav class="navbar navbar-expand-lg" id="nav">
+        <nav class="navbar navbar-expand-lg navbar-expand-md" id="nav">
             <div class="container-fluid">
               <button class="navbar-toggler p-0 border border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon p-0 border border-0"></span>
               </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
     
-                <a class="navbar-brand d-none d-lg-inline" href="#"><img src="image/logo-salesforce.svg" alt="" width="60px"></a>
+                <a class="navbar-brand d-none d-lg-inline d-md-inline" href="#"><img src="image/logo-salesforce.svg" alt="" width="60px"></a>
     
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0 mb-lg-0 gap-4">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Products</a>
                   </li>
@@ -93,11 +93,13 @@
     <!-- Main Section -->
     <main>
       <!-- Banner Section Start -->
-      <div class="container-fluid d-lg-flex px-lg-5 my-3 mt-3 py-lg-5 justify-content-between" id="banner">
+      <div class="container-fluid d-lg-flex d-md-flex p-md-5 p-lg-5 my-3 mt-3 justify-content-between" id="banner">
         <div class="d-flex flex-column gap-lg-3">
-          <h1 class="lh-1">
-            Deliver success now with Salesforce Customer 360.
-          </h1>
+          <div class="col-11">
+            <h1 class="lh-1">
+              Deliver success now with Salesforce Customer 360.
+            </h1>
+          </div>
 
           <p class="fs-5">
             <a href="">See how</a> our suite of products and services helps 98% of customers meet or exceed their ROI goals.
@@ -116,7 +118,7 @@
           </div>
         </div>
         <div>
-          <img src="image/homepage-success-now-fg.png" alt="" class="py-3 fs-1 img-fluid mx-auto" width="">
+          <img src="image/homepage-success-now-fg.png" alt="" class="py-3 fs-1 img-fluid mx-auto">
         </div>
       </div>
 
@@ -125,7 +127,7 @@
       <section class="container-fluid justify-content-center">
         <h2 class="text-center mx-auto">What's new at Salesforce?</h2>
 
-        <div class="my-5 flex-column flex-lg-row gap-3" id="cardfluid">
+        <div class="my-5 flex-column flex-lg-row flex-md-row gap-3" id="cardfluid">
 
           <div class="cardcon rounded rounded-4 fw-bold shadow">
             <div id="card">
@@ -171,9 +173,11 @@
 
       <!-- Whats new Learn Salesforce -->
       <section class="my-4 p-4" id="learn">
-        <h2 class="mx-auto my-5 text-center">Learn how Salesforce products help you lower costs and save time.</h2>
+        <div class="col-lg-8 col-md-8 mx-auto">
+          <h2 class="mx-auto my-5 text-center">Learn how Salesforce products help you lower costs and save time.</h2>
+        </div>
 
-        <div class="d-flex flex-column flex-lg-row gap-4 justify-content-between">
+        <div class="d-flex flex-column flex-lg-row flex-md-row gap-4 justify-content-between">
 
           <div class="d-flex flex-column w-lg-25">
 
@@ -189,7 +193,7 @@
             </div>
           </div>
 
-          <div class="d-flex justify-content-center flex-column w-lg-25">
+          <div class="d-flex justify-content-center flex-column">
 
             <div class="mx-auto">
               <img class="img-fluid" width="250px" src="image/php-products-sales.jpg" alt="">
@@ -203,7 +207,7 @@
             </div>
           </div>
 
-          <div class="d-flex justify-content-center flex-column w-lg-25">
+          <div class="d-flex justify-content-center flex-column">
 
             <div class="mx-auto">
               <img class="img-fluid" width="250px" src="image/php-products-service.jpg" alt="">
@@ -217,7 +221,7 @@
             </div>
           </div>
 
-          <div class="d-flex flex-column w-lg-25">
+          <div class="d-flex flex-column">
 
             <div class="mx-auto">
               <img class="img-fluid" width="250px" src="image/php-products-all-products.jpg" alt="">
@@ -238,7 +242,7 @@
       <section class="container-fluid justify-content-center mb-4">
         <h2 class="text-center mx-auto my-5">Find innovations for any industry.</h2>
 
-        <div class="mt-5 flex-column flex-lg-row gap-3" id="cardfluid">
+        <div class="mt-5 flex-column flex-lg-row flex-md-row gap-3" id="cardfluid">
 
           <div class="cardcon rounded rounded-4 fw-bold shadow">
             <div id="card">
@@ -306,10 +310,14 @@
       </div>
       
       <section class="container-fluid d-flex justify-content-center flex-column">
-          <h2 class="text-center mx-auto my-4">See how Salesforce customers become customer companies.</h2>
-          <p class="text-center w-50 mx-auto">
-            Learn how companies of every description are connecting with customers in a whole new way.
-          </p>
+          <div class="col-lg-8 col-md-8 mx-auto">
+            <h2 class="text-center mx-auto my-4">See how Salesforce customers become customer companies.</h2>
+          </div>
+          <div class="col-lg-6 col-md-6 mx-auto">
+            <p class="text-center mx-auto">
+              Learn how companies of every description are connecting with customers in a whole new way.
+            </p>
+          </div>
   
           <button class="btn btn-outline-primary mx-auto border border-3 border-primary py-3 px-5 mb-5 fw-medium">
             See all customer stories
@@ -318,15 +326,15 @@
       <div class="container">
         <div class="row justify-content-center gap-4">
 
-          <div class="col-lg col-5 px-4 shadow rounded"><img src="image/See the Smart Rent story.png" class="img-fluid" alt=""></div>
+          <div class="col-lg col-md-3 col-5 px-4 shadow rounded"><img src="image/See the Smart Rent story.png" class="img-fluid" alt=""></div>
 
-          <div class="col-lg col-5 px-4 shadow rounded"><img src="image/See the Formula 1 story.png" class="img-fluid" alt=""></div>
+          <div class="col-lg col-md-3 col-5 px-4 shadow rounded"><img src="image/See the Formula 1 story.png" class="img-fluid" alt=""></div>
 
-          <div class="col-lg col-5 px-4 shadow rounded"><img src="image/See the Muscular Dystrophy Association story.png" class="img-fluid" alt=""></div>
+          <div class="col-lg col-md-3 col-5 px-4 shadow rounded"><img src="image/See the Muscular Dystrophy Association story.png" class="img-fluid" alt=""></div>
 
-          <div class="col-lg col-5 px-4 shadow rounded"><img src="image/See the Casey_s story.png" class="img-fluid" alt=""></div>
+          <div class="col-lg col-md-3 col-5 px-4 shadow rounded"><img src="image/See the Casey_s story.png" class="img-fluid" alt=""></div>
 
-          <div class="col-lg col-5 px-4 shadow rounded"><img src="image/See the Canva story.png" class="img-fluid" alt=""></div>
+          <div class="col-lg col-md-3 col-5 px-4 shadow rounded"><img src="image/See the Canva story.png" class="img-fluid" alt=""></div>
         </div>
 
       </div>
@@ -336,13 +344,17 @@
 
     <!-- Learn Valuable Skills -->
     <section class="container-fluid mb-4">
-      <h2 class="text-center mx-auto my-5">Learn valuable skills for free, with Trailhead.</h2>
+      <div class="col-lg-8 .col-md-8 mx-auto">
+        <h2 class="text-center mx-auto mt-5 mb-3">Learn valuable skills for free, with Trailhead.</h2>
+      </div>
 
-      <p class="text-center w-50 mx-auto">
-        Follow guided learning paths and get hands-on to learn Salesforce, digital, and soft skills from anywhere.
-      </p>
+      <div class="col-lg-6 .col-md-6 mx-auto">
+        <p class="text-center mx-auto">
+          Follow guided learning paths and get hands-on to learn Salesforce, digital, and soft skills from anywhere.
+        </p>
+      </div>
 
-      <div class="mt-5 flex-column justify-content-center flex-lg-row gap-3" id="cardfluid">
+      <div class="mt-5 flex-column justify-content-center flex-lg-row flex-md-row gap-3" id="cardfluid">
 
         <div class="cardcon rounded rounded-4 fw-bold shadow pt-4">
           <div class="d-flex justify-content-center" id="card">
@@ -412,29 +424,34 @@
 
     <!-- All sorts of content Section -->
     <section class="d-flex justify-content-center flex-column mt-5 pt-5">
-      <button class="btn btn-outline-primary mx-auto border border-3 border-primary py-3 px-5 mb-4 fw-medium">
+      <button class="btn btn-outline-primary mx-auto border border-3 border-primary py-3 px-lg-5 mb-4 fw-medium">
         Learn for free
       </button>
 
-      <h2 class="text-center mx-auto my-4">All sorts of content. All to help you grow.</h2>
+      <div class="col-lg-8 mx-auto px-1">
+        <h2 class="text-center mx-auto my-4">All sorts of content. All to help you grow.</h2>
+      </div>
 
-      <div class="container-fluid my-5 p-5">
+      <div class="container-fluid my-5 p-lg-5 p-md-5">
         <div class="row align-items-center">
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-6">
             <div class="row gap-4 pe-4">
               <h2>What is CRM?</h2>
 
               <p>
                 Learn all about CRM, how it can unify all your teams, and how it drives growth and productivity across your business.
               </p>
-              <button class="btn btn-outline-primary border border-3 border-primary py-3 px-5 mb-4 mx-3 fw-medium w-50">
-                Discover CRM
-              </button>
+              
+              <div class="col-lg-6 col-md-6">
+                <button class="btn btn-outline-primary border border-3 border-primary py-3 px-5 mb-4 mx-lg-3 fw-medium">
+                  Discover CRM
+                </button>
+              </div>
             </div>
           </div>
 
 
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-6">
             <img src="image/php-rc-what-is-crm.jpg" class="img-fluid" alt="">
           </div>
         </div>
@@ -443,9 +460,9 @@
 
     <!-- Under CRM Section -->
     <section id="underCRM">
-      <div class="mt-5 flex-column justify-content-center flex-lg-row gap-4" id="cardfluid">
+      <div class="mt-5 flex-column flex-lg-row flex-md-row gap-3 gap-lg-0 gap-md-2 px-4" id="cardfluid">
 
-        <div class="cardcon rounded rounded-4 fw-bold shadow" id="whitebg">
+        <div class="cardcon rounded mx-auto rounded-4 fw-bold shadow" id="whitebg">
           <div class="d-flex justify-content-center" id="card">
             <img class="img-fluid rounded rounded-top-4 mx-auto" src="image/state-of-sales-resource-card.jpg" alt="">
           </div>
@@ -466,7 +483,7 @@
           </div>
         </div>
 
-        <div class="cardcon rounded rounded-4 fw-bold shadow" id="whitebg">
+        <div class="cardcon rounded mx-auto rounded-4 fw-bold shadow" id="whitebg">
           <div class="d-flex justify-content-center" id="card">
             <img class="img-fluid rounded rounded-top-4" src="image/php-rc-connections-series.jpg" alt="">
           </div>
@@ -487,7 +504,7 @@
           </div>
         </div>
 
-        <div class="cardcon rounded rounded-4 fw-bold shadow" id="whitebg">
+        <div class="cardcon rounded mx-auto rounded-4 fw-bold shadow" id="whitebg">
           <div class="d-flex justify-content-center" id="card">
             <img class="img-fluid rounded rounded-top-4" src="image/php-rc-lead-management.jpg" alt="">
           </div>
@@ -513,9 +530,11 @@
     
     <!-- Insipring Events section -->
     <section class="container-fluid mb-5">
-      <h2 class="text-center mx-auto my-5">Inspiring events. In-person and streaming.</h2>
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-center mx-auto my-5">Inspiring events. In-person and streaming.</h2>
+      </div>
 
-      <div class="mt-5 flex-column justify-content-center flex-lg-row gap-4" id="cardfluid">
+      <div class="mt-5 flex-column justify-content-center flex-lg-row flex-md-row gap-4" id="cardfluid">
 
         <div class="cardcon rounded rounded-4 fw-bold shadow">
           <div class="d-flex justify-content-center" id="card">
@@ -574,9 +593,11 @@
 
     <!-- Meet and collaborate section -->
     <section class="container-fluid py-4">
-      <h2 class="text-center mx-auto my-5">Meet and collaborate with Trailblazers who share your role and interests.</h2>
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-center mx-auto my-5">Meet and collaborate with Trailblazers who share your role and interests.</h2>
+      </div>
 
-      <div class="mt-5 flex-column justify-content-center flex-lg-row gap-4" id="cardfluid">
+      <div class="mt-5 flex-column justify-content-center flex-lg-row flex-md-row gap-4" id="cardfluid">
 
         <div class="cardcon rounded rounded-4 fw-bold shadow">
  
@@ -639,11 +660,11 @@
       <div class="container-fluid my-5">
         <div class="row align-items-center">    
 
-          <div class="col-lg-6 ps-5">
-            <img src="image/php-appy-appexchange.jpg" class="img-fluid" alt="">
+          <div class="col-lg-6 col-md-6 ps-lg-5 ps-md-5">
+            <img src="image/php-appy-appexchange.jpg" class="img-fluid mx-auto" alt="">
           </div>
 
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-6">
             <div class="row gap-4 pe-5">
               <h2>
                 Discover apps and expertise to extend Salesforce
@@ -652,21 +673,153 @@
               <p>
                 Browse our AppExchange marketplace, with thousands of customized apps and specialized consulting partners to help any sized business craft a perfectly tailored Customer 360 solution.
               </p>
-              <button class="btn btn-outline-primary border border-3 border-primary py-3 px-5 mb-4 mx-3 fw-medium w-50">
-                Visit AppExchange
-              </button>
+              
+              <div class="col">
+                <button class="btn btn-outline-primary border border-3 border-primary py-3 px-5 mb-4 fw-medium">
+                  Visit AppExchange
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    </main>
 
+    <!-- All sort of contents -->
+    <section class="d-flex justify-content-center flex-column">
+      
+      <div class="col-lg-6 col-md-6 mx-auto">
+        <h2 class="text-center mx-auto my-4">All sorts of content. All to help you grow.</h2>
+      </div>
+
+      <button class="btn btn-primary mx-auto border border-3 border-primary py-3 px-5 mb-4 fw-medium">
+        Start free trial
+      </button>
+
+      <img class="col-9 mx-auto" src="image/php-free-trial-desk.jpg" alt="">
+    </section>
+
+    <!-- Get timely Section -->
+    <section class="rounded rounded-4 shadow p-lg-5 p-4 col-11 mx-auto me-5" id="signup">
+      <div class="col-lg-6 col-md-6 col-12">
+        <h2 class="p-lg-4 p-md-4 lh-sm">
+          Get timely updates and fresh ideas delivered to your inbox.
+        </h2>
+      </div>
+
+      <button class="btn btn-primary fw-bold px-lg-4 px-md-4 py-3 m-lg-4 m-lg-4 my-4">Sign up now</button>
+    </section>
+
+    </main>
 
     <!-- Footer Section -->
     <footer>
-        
+        <section>
+          <div class="container-lg mx-auto d-none d-lg-block d-md-block">
+            <div class="row gap-4 p-5">
+
+              <!-- Social Media Section -->
+              <div class="col p-2">
+                <img src="image/logo-salesforce.svg" class="img-fluid mb-5" alt="">
+
+                <div class="d-flex justify-content-between mb-4 fs-2">
+                  <i class="fa-brands fa-square-facebook"></i>
+                  <i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                  <i class="fa-brands fa-square-youtube"></i>
+                </div>
+
+                <p class="fw-bold">Call us at 1-800-664-9073</p>
+              </div>
+
+              <!-- New Salesforce -->
+              <div class="col">
+                <h6 class="fw-bold mb-4">New to Salesforce?</h6>
+
+                <ul class="list-unstyled lh-lg">
+                  <li><a href="">What is CRM?</a></li>
+                  <li><a href="">What is salesforce?</a></li>
+                  <li><a href="">Help Desk Software</a></li>
+                  <li><a href="">Marketing Automation Software</a></li>
+                  <li><a href="">Explore all products</a></li>
+                  <li><a href="">What is Cloud Computing?</a></li>
+                  <li><a href="">Customer Success</a></li>
+                  <li><a href="">Product pricing</a></li>
+                  <li><a href="">Privacy for Salesforce Product</a></li>
+                </ul>
+              </div>
+
+              <!-- About Salesforce -->
+              <div class="col">
+                <h6 class="fw-bold mb-4">New to Salesforce?</h6>
+
+                <ul class="list-unstyled lh-lg">
+                  <li><a href="">What is CRM?</a></li>
+                  <li><a href="">What is salesforce?</a></li>
+                  <li><a href="">Help Desk Software</a></li>
+                  <li><a href="">Marketing Automation Software</a></li>
+                  <li><a href="">Explore all products</a></li>
+                  <li><a href="">What is Cloud Computing?</a></li>
+                  <li><a href="">Customer Success</a></li>
+                  <li><a href="">Product pricing</a></li>
+                  <li><a href="">Privacy for Salesforce Product</a></li>
+                </ul>
+
+              </div>
+
+              <!-- Popular Link -->
+              <div class="col">
+                <h6 class="fw-bold mb-4">New to Salesforce?</h6>
+
+                <ul class="list-unstyled lh-lg">
+                  <li><a href="">What is CRM?</a></li>
+                  <li><a href="">What is salesforce?</a></li>
+                  <li><a href="">Help Desk Software</a></li>
+                  <li><a href="">Marketing Automation Software</a></li>
+                  <li><a href="">Explore all products</a></li>
+                  <li><a href="">What is Cloud Computing?</a></li>
+                  <li><a href="">Customer Success</a></li>
+                  <li><a href="">Product pricing</a></li>
+                  <li><a href="">Privacy for Salesforce Product</a></li>
+                </ul>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+
+
+        <section class="p-lg-4 p-3" id="dipBlue"> 
+          <div class="col-lg-10 col-md-10 mx-auto">
+            <div class="row gap-3 gap-lg-0 gap-md-0">
+              <div class="col-lg-2 col-md-2 mx-auto">
+                <button class="btn p-2 btn-outline-light fw-bold mx-auto">
+                  <i class="fa-solid fa-globe"></i> Worldwide <i class="fa-solid fa-angle-up"></i>
+                </button>
+              </div>
+
+              <div class="col-lg-10 col-md-10 px-lg-4 px-md-4">
+                <p class="text-light">
+                  © Copyright 2023 Salesforce, Inc. <a href=""> All rights reserved</a>. Various trademarks held by their respective owners. Salesforce, Inc. Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, CA 94105, United States
+                </p>
+
+                <ul class="list-unstyled d-flex flex-wrap gap-4 row-gap-1">
+                  <li><a href="">Legal</a></li>
+                  <li><a href="">Term of Service</a></li>
+                  <li><a href="">Privacy Information</a></li>
+                  <li><a href="">Responsible Disclosure</a></li>
+                  <li><a href="">Trust</a></li>
+                  <li><a href="">Contact</a></li>
+                  <li><a href="">Cookies Preferences</a></li>
+                  <li><img class="img-fluid" src="image/icon-cpra.svg" width="30px" alt=""> <a href="">Your privacy choices</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
     </footer>
 
 
